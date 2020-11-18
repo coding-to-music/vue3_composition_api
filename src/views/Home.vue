@@ -1,9 +1,15 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <BlogRoll />
+  </div>
 </template>
 
 <script>
+import BlogRoll from '@/components/blog/BlogRoll.vue'
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    BlogRoll
+  }
 };
 </script>
